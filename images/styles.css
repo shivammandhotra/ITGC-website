@@ -141,16 +141,20 @@ body {
 }
 .social ul {
   position: absolute;
-  top: 80%;
+  top: 30%;
   right: 20%;
   padding: 0;
   margin: 0;
   transform: translate(-50%, -50%);
   display: flex;
+  width: 31%;
+  height: 25%;
+  background-color: #007cb600;
 }
 .social ul li {
   list-style: none;
   margin: 0 10px;
+  background-color: #00a90e00;
 }
 .social ul li .fa {
   top: 50%;
