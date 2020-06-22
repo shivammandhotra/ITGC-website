@@ -139,48 +139,66 @@ body {
     left: -400%;
   }
 }
-.social{
-  display: flex;
+.social ul {
   position: absolute;
   top: 80%;
-  left: 50%;
-  transform: translate(-50%,-50%);
-  /* width: 100%; */
+  right: 20%;
+  padding: 0;
+  margin: 0;
+  transform: translate(-50%, -50%);
+  display: flex;
 }
-.social li{
+.social ul li {
   list-style: none;
+  margin: 0 10px;
 }
-.social li a{
-  width: 80px;
-  height: 80px;
-  /* background: #fff; */
-  text-align: center;
-  line-height: 80px;
-  font-size: 35px;
-  margin: 0px 10px;
-  display: black;
-  
-  border-radius: 50%;
+.social ul li .fa {
+  top: 50%;
+  font-size: 40px;
+  line-height: 67px;
+  transition: 0.8%;
+  color: rgba(0, 0, 0, 0.89);
+  background-color: rgba(255, 255, 255, 0);
+}
+.social ul li .fa:hover {
+  color: rgb(255, 255, 255);
+}
+.social ul li a {
   position: relative;
-  overflow:hidden;
-  
-  z-index: 1;
+  display: block;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+  transition: 0.6%;
+  box-shadow: 0 5px 4px rgba(0, 0, 0, 0.5);
 }
-.social li a .fa{
-  position: relative ;
-  color: #ffffff; 
-  transition: .5s;
+.social ul li a:hover {
+  transform: translate(0, -10px);
 }
-.social li a:hover .fa{
-  color: rgb(175, 172, 172);
-  transform: rotate(360deg);
+.social ul li:nth-child(1) a:hover {
+  background-color: #3b5999;
+}
+.social ul li:nth-child(2) a:hover {
+  background-color: #00aced;
+}
+.social ul li:nth-child(3) a:hover {
+  background-color: #dd4b39;
+}
+.social ul li:nth-child(4) a:hover {
+  background-color: #007bb6;
+}
+.social ul li:nth-child(5) a:hover {
+  background-color: #E1306C;
 }
 h1{
+  font-family: "MuseoModerno" ;
+  color: antiquewhite;
   text-align: center;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  color: #ffffff;
 }
 p{
-  font-family:sans-serif;
-  color: #ffffffab;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: rgba(240, 248, 255, 0.507);
+  text-align: center;
 }
